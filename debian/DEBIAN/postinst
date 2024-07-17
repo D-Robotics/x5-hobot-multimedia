@@ -1,0 +1,6 @@
+#!/bin/sh
+
+echo "run ldconfig"
+ldconfig
+exit 0
+

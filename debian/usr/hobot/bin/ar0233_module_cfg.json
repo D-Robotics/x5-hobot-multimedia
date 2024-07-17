@@ -1,0 +1,8 @@
+{
+    "wbInfo":
+    {
+        "enable": 1,
+        "useCfg": 1,
+        "mode": 0, "//":"0: manual mode only"
+    }
+}
