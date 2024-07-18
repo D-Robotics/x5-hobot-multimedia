@@ -1,6 +1,9 @@
 #!/bin/sh
 
-echo "run ldconfig"
 ldconfig
+
+systemctl enable cam-service.service
+systemctl start cam-service.service
+
 exit 0
 

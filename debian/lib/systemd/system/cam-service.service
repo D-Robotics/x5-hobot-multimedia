@@ -1,0 +1,10 @@
+[Unit]
+Description=Start cam-service at startup.
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/hobot/bin/cam-service -C5,3,5,3 -s4,2,4,2 -i6 -V6 &
+
+[Install]
+WantedBy=multi-user.target
