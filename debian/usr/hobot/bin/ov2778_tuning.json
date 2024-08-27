@@ -6558,7 +6558,7 @@
         "name": "1920x1080",
         "resolution": "1920x1080",
         "blsData": [
-          260, 260, 260, 260
+          64, 64, 64, 64
         ]
       }
     ],
@@ -17528,7 +17528,7 @@
       "state": 1,
       "isOverrideCalibration": true,
       "data": [
-        260, 260, 260, 260
+        64, 64, 64, 64
       ]
     },
     "CCM": {
@@ -19115,6 +19115,25 @@
       "wdrRgbCoef": [
         38, 75, 15
       ]
+    },
+    "RGBIR_1_1": {
+      "state" : 1,
+      "bls" : [
+        0, 0, 0, 0
+      ],
+      "ccMatrix": [
+        1, 0, 0, -0.9, 0, 1, 0, -0.9, 0, 0, 1, -0.9
+      ],
+      "dpccMidTh": [
+        4095, 4095, 4095, 4095
+      ],
+      "dpccTh": [
+        400, 100, 100, 100
+      ],
+      "irThreshold": 512,
+      "irBayerPattern": 0,
+      "lThreshold": 1024,
+      "outRgbPattern": 0
     }
   }
 }
